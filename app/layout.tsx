@@ -3,8 +3,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "RentCar",
-  description: "Descubra os melhores carros para alugar com a RentCar.",
+  title: "CarHub",
+  description: "Descubra os melhores carros para alugar com a CarHub.",
 };
 
 export default function RootLayout({
