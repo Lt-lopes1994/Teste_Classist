@@ -37,3 +37,20 @@ export interface FilterProps {
   limit: number,
   model: string,
 }
+
+export interface ShowMoreProps {
+  pageNumber: number;
+  isNext: boolean;
+  setLimit: (limit: number) => void;
+}
+
+export interface OptionProps {
+  title: string;
+  value: string;
+}
+
+export interface CustomFilterProps {
+  title: string;
+  options: OptionProps[];
+  setFilter: (filter: any ) => void;
+}
